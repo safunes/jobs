@@ -1,9 +1,9 @@
 pipeline{
-    agent any
+    agent centOSSlave
     stages{
         stage('Stage 1'){
             steps{
-                echo "Hellow from gitlan nuevo"
+                echo "Hellow from gitlab nuevo"
             }
         }
     }
