@@ -1,5 +1,5 @@
 pipeline{
-    agent centOSSlave
+    agent newslave
     stages{
         stage('Stage 1'){
             steps{
