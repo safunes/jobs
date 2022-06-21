@@ -1,5 +1,5 @@
 pipeline{
-    agent newslave
+    agent { label 'newslave' } 
     stages{
         stage('Stage 1'){
             steps{
